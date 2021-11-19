@@ -1,0 +1,25 @@
+Signo de fin de cadena:
+Signo de dolar
+Interrupción 10H:
+Posiciona el cursor:
+INT 10H AH=02H
+DH: Fila (0-24)
+DL: Columna (0-79)
+BH: Número página: 0 o 5
+Los nodos de video se pueden cambiar.
+Modos: Texto, VGA, SVGA
+Texto: sin pixeles, sólo posiciones y caracteres
+VGA: Pixel referenciado por cada dirección de memoria (por eso sólo hay 256 colores)
+SVGA: Pixel referenciado por dos direcciones de memoria
+Pantallas 0 y 5: Para Texto
+
+Colores:
+IRGB
+
+Primeros 4: Color de la fuente
+Siguientes 3: Fondo
+último: Blink
+
+Para ir a consola en td:
+Alt + F5
+Para ir 
